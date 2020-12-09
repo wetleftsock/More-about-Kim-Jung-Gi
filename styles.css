@@ -1,0 +1,91 @@
+html {
+    background-color: lightblue;
+    font-family: 'Noto Serif', serif;
+    color: #333333;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.biography {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 950px;
+    font-size: 22px;
+}
+
+.biotext {
+    margin: 10px;
+    width: 400px;
+    height: 465.297px;
+    word-wrap: break-word;
+}
+
+.biopg {
+    font-size: 16px;
+}
+
+.biopic {
+    width: 400px;
+    margin: 10px;
+}
+
+.pictures {
+    width: 950px;
+    margin: auto;
+    margin-top: 10px;
+    height: 800px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.pig {
+    width: 300px;
+    height: 385px;
+    border: 1px solid red;
+    margin: 5px;
+}
+
+.links {
+    text-align: center;
+    width: 950px;
+    margin: auto;
+    margin-top: 10px;
+    height: 300px;
+}
+
+.logo {
+    width: 100px;
+    margin-left: 15px;
+}
+
+a:link.superani {
+    text-decoration: none;
+}
+
+a:hover.superani {
+    text-decoration: underline;
+}
+
+.menu1 {
+    display: flex;
+    justify-content: center;
+}
+
+.item1 {
+    border: 1px solid red;
+    background-color:#4169E1;
+    display: flex;
+}
+
+.item2 {
+    border: 1px red solid;
+    margin: 10px;
+	padding: 5px;
+    width: 200px;
+    text-align: center;
+}
